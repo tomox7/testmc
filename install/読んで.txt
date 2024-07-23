@@ -7,3 +7,9 @@
 
 2. fabric-installer-1.0.1.exeを実行して、Fabricランチャーインストールしてください。
    インストール時の設定はすべてデフォルトでOK
+
+
+※マイクラの起動構成からメモリ割当しましょう。
+描画距離が32だと6Gほど確保しておけば快適
+設定例
+-Xms6G -Xmx6G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=30 -XX:G1HeapRegionSize=32M
