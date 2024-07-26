@@ -27,5 +27,6 @@ If not exist %MC_HOME%\shaderpacks mkdir %MC_HOME%\shaderpacks
 mkdir %MC_HOME%\shaderpacks_bk_20240722202823
 xcopy /s /e %MC_HOME%\shaderpacks %MC_HOME%\shaderpacks_bk_20240722202823
 copy shaderpacks %MC_HOME%\shaderpacks
+call fabric-installer-1.0.1
 :END
 pause
