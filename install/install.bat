@@ -1,4 +1,4 @@
-set iddy=%date:/=%
+set iddy=1-21-0
 set time2=%time: =0%
 set iddt=%iddy%%time2:~0,2%%time2:~3,2%%time2:~6,2%
 
