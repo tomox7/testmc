@@ -1,0 +1,2 @@
+key_key.lighty.enable:key.keyboard.f8
+key_key.lighty.toggle:key.keyboard.f7
