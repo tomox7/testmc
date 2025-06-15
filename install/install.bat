@@ -24,6 +24,6 @@ mkdir %MC_HOME%\shaderpacks_bk_%iddt%
 xcopy /s /e %MC_HOME%\shaderpacks %MC_HOME%\shaderpacks_bk_%iddt%
 copy shaderpacks %MC_HOME%\shaderpacks
 
-echo. >> "%MC_HOME%\options.txt" && type "options.txt" >> "%MC_HOME%\options.txt"
+call fabric-installer-1.0.3
 
 pause
